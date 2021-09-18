@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${fileDirname}",
+            "name": "mingw compile and run",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/out.exe", //probably a better way of doing this but...
+            "preLaunchTask": "mingw-build",
+            // "console": "externalTerminal",
+        }
+    ]
+}
