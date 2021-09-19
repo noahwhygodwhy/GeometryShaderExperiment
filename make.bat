@@ -1,1 +1,0 @@
-g++ ./source/*.cpp ./source/glad.c -o out.exe -Wall -Wextra -I ./include -L./lib -lglfw3 -lgdi32 -lopengl32 -std=c++17

@@ -1,10 +1,16 @@
 {
     "version": "2.0.0",
+    "options": {
+        "env": {
+            "MSYSTEM": "MINGW64"
+        }
+    },
     "tasks": [
         {
             "label":"mingw-build",
             "type": "process",
-            "command": "make.bat",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": ["-l", "-c", "cd /d/OneDrive/Personal/GeometryShaderExperiment; source make.sh"]
         }
     ]
 }

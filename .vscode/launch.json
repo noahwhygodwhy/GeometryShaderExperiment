@@ -8,7 +8,10 @@
             "request": "launch",
             "program": "${workspaceFolder}/out.exe", //probably a better way of doing this but...
             "preLaunchTask": "mingw-build",
-            // "console": "externalTerminal",
+            "console": "integratedTerminal",
+            "env": {
+                "PATH": "C:\\Windows;C:\\Windows\\System32;C:\\msys64\\mingw64\\bin"
+            }
         }
     ]
 }
